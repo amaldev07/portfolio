@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amaldev | Frontend Developer Portfolio</title>
+  <style>
+    
+    body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f9f9f9; color: #333; }
+    header { background: #4f46e5; color: white; padding: 2rem; text-align: center; }
+    nav { margin-top: 1rem; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    section { padding: 3rem 1.5rem; max-width: 1200px; margin: auto; }
+    .skills, .projects, .services, .tech-stack, .testimonials { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; text-align: center; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+    .skill-icon { font-size: 2rem; color: #4f46e5; margin-bottom: 0.5rem; display: block; }
+    .service-icon { font-size: 2rem; margin-bottom: 1rem; color: #4f46e5; }
+    .contact { text-align: center; }
+    footer { text-align: center; padding: 2rem; background: #eee; margin-top: 2rem; font-size: 0.9rem; }
+    .timeline { border-left: 3px solid #4f46e5; padding-left: 1rem; margin-top: 2rem; }
+    .timeline-item { margin-bottom: 2rem; }
+    .timeline-item h4 { margin: 0 0 0.5rem; color: #4f46e5; }
+    @media (max-width: 600px) {
+      nav { display: flex; flex-direction: column; gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hi, I'm Amaldev 👋</h1>
+  <p>Senior Frontend Developer | Angular & JavaScript Specialist | 10+ Years Experience</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#services">Services</a>
+    <a href="#tech">Tech Stack</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm Amaldev, a passionate Frontend Developer with 10+ years of hands-on experience crafting seamless digital experiences. I specialize in building high-performance, scalable, and visually stunning web applications using Angular, JavaScript, and TypeScript. I turn complex ideas into intuitive, user-friendly interfaces, blending design with functionality. I believe great products are born at the intersection of creativity, technology, and meticulous attention to detail. Let's collaborate and bring your vision to life!</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card"><span class="skill-icon">⚡</span>Angular</div>
+    <div class="card"><span class="skill-icon">🛠️</span>JavaScript (ES6+)</div>
+    <div class="card"><span class="skill-icon">🔵</span>TypeScript</div>
+    <div class="card"><span class="skill-icon">🖥️</span>HTML5 / CSS3</div>
+    <div class="card"><span class="skill-icon">📱</span>Responsive Web Design</div>
+    <div class="card"><span class="skill-icon">🔗</span>REST API Integration</div>
+    <div class="card"><span class="skill-icon">🔄</span>RxJS</div>
+    <div class="card"><span class="skill-icon">🧠</span>NgRx (State Management)</div>
+    <div class="card"><span class="skill-icon">🔧</span>Git & CI/CD</div>
+    <div class="card"><span class="skill-icon">🧪</span>Unit Testing (Jasmine/Karma)</div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="services">
+    <div class="card">
+      <div class="service-icon">💻</div>
+      <h3>Custom Web Applications</h3>
+      <p>Building tailored solutions using Angular and modern JavaScript frameworks for scalable business needs.</p>
+    </div>
+    <div class="card">
+      <div class="service-icon">🚀</div>
+      <h3>Angular Migration & Modernization</h3>
+      <p>Upgrading legacy systems to the latest Angular versions with a focus on performance, security, and UI/UX improvements.</p>
+    </div>
+    <div class="card">
+      <div class="service-icon">⚡</div>
+      <h3>Performance Optimization</h3>
+      <p>Analyzing and enhancing web app performance for faster load times and better user experiences.</p>
+    </div>
+    <div class="card">
+      <div class="service-icon">🔗</div>
+      <h3>API Integration & UI Enhancement</h3>
+      <p>Connecting frontends with RESTful APIs and creating seamless interactive user interfaces.</p>
+    </div>
+    <div class="card">
+      <div class="service-icon">🤝</div>
+      <h3>Freelance Consulting</h3>
+      <p>Offering expert advice and hands-on development support for businesses and startups.</p>
+    </div>
+  </div>
+</section>
+
+<section id="tech">
+  <h2>Tech Stack</h2>
+  <div class="tech-stack">
+    <div class="card">Angular, React</div>
+    <div class="card">JavaScript, TypeScript</div>
+    <div class="card">HTML5, CSS3, SCSS</div>
+    <div class="card">Node.js (Basic)</div>
+    <div class="card">Git, Jenkins, CI/CD Tools</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Enterprise Dashboard</h3>
+      <p>Built a dynamic, real-time dashboard for a finance company using Angular, integrating multiple APIs with optimized state management.</p>
+    </div>
+    <div class="card">
+      <h3>Search Application</h3>
+      <p>Developed a Google-like search application with debouncing, infinite scroll, and responsive design for a SaaS client.</p>
+    </div>
+    <div class="card">
+      <h3>Role-Based Access Control</h3>
+      <p>Implemented a secure role-based UI system controlling read/write access to critical modules in an enterprise app.</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h4>Senior Frontend Developer - Wells Fargo</h4>
+      <p>Leading UI development for financial applications, Angular modernization projects, and performance optimization initiatives.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>Frontend Engineer - Product Company</h4>
+      <p>Worked on highly scalable SPA applications, RESTful API integrations, and end-to-end project deliveries.</p>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Achievements & Certifications</h2>
+  <ul>
+    <li>Certified Angular Developer</li>
+    <li>JavaScript Advanced Certification (Udemy, Coursera)</li>
+    <li>Top Rated Plus Freelancer on Upwork</li>
+  </ul>
+</section>
+
+<section id="testimonials">
+  <h2>Client Testimonials</h2>
+  <div class="testimonials">
+    <div class="card">
+      <p>"Amaldev delivered beyond expectations. His Angular skills and professionalism were outstanding." - Client A</p>
+    </div>
+    <div class="card">
+      <p>"Highly recommend for any frontend project. Excellent communication and code quality." - Client B</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact">
+    <p>📧 amaldev.psn@gmail.com</p>
+    <p>📱 +91-7594072480</p>
+    <p>🌐 <a href="https://www.linkedin.com/in/amaldev" target="_blank">LinkedIn Profile</a></p>
+    <p>📄 <a href="#">Download Resume</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Amaldev. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
