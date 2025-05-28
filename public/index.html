@@ -1,416 +1,443 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description"
-        content="Amaldev Portfolio| Web Application Developer| Angular Developer|+91-7594072480, amaldev.psn@gmail.com" />
-    <meta name="author" content="" />
-    <title>Resume - Amaldev</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Amaldev PS | Frontend Engineer</title> -->
+    <!-- <title>Frontend Ace</title> -->
+    <title>Build & Boom</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Amaldev</span>
-            <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg"
-                    alt="..." /></span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-            </ul>
+<body class="bg-gradient-to-br from-gray-900 via-purple-900 to-violet-600 font-sans">
+
+
+
+    <section class="py-20 relative overflow-hidden">
+        <!-- Version Control SVG as background (moved to left, smaller size) -->
+        <img src="version-control_e4yu.svg" alt="Version Control"
+            class="absolute left-0 top-1/2 transform -translate-y-1/2 w-[28vw] max-w-2xl opacity-30 pointer-events-none select-none z-0" />
+        <div class="container mx-auto text-center px-6 relative z-10 flex flex-col items-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-100">Hi, I'm Amaldev P S</h1>
+            <p class="mt-4 text-xl md:text-2xl text-gray-200">I build intuitive and performant web applications using
+                Angular & React.</p>
+            <a href="#contact" class="mt-8 inline-block bg-white text-indigo-600 font-bold py-3 px-6 rounded-lg">Let's
+                Connect</a>
+
+            <!-- Resume Section (Moved Below Let's Connect) -->
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4 mt-6">
+                <a href="resume.html" target="_blank"
+                    class="inline-flex items-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 text-white font-semibold px-5 py-2 rounded-full shadow hover:scale-105 transition-transform">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+                    View Resume
+                </a>
+                <a href="./Resume_Amaldev.pdf" download
+                    class="inline-flex items-center bg-white bg-opacity-20 text-pink-200 font-semibold px-5 py-2 rounded-full shadow hover:bg-opacity-40 transition-colors"
+                    title="Download PDF Resume">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v12m0 0l-4-4m4 4l4-4m-8 8h8" />
+                    </svg>
+                    Download
+                </a>
+            </div>
         </div>
-    </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Amaldev
-                    <span class="text-primary">P S</span>
-                </h1>
-                <div class="subheading mb-5">
-                    Bangalore, KA, 560016 · (+91) 9035062895·
-                    <a href="mailto:name@email.com">amaldev.psr@gmail.com</a>
+        <!-- Cool SVG Decoration -->
+        <svg class="absolute left-1/2 top-0 -translate-x-1/2 -z-0 opacity-60" width="700" height="320"
+            viewBox="0 0 700 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="introGradient" x1="0" y1="0" x2="700" y2="320" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#f472b6" />
+                    <stop offset="0.5" stop-color="#a78bfa" />
+                    <stop offset="1" stop-color="#6366f1" />
+                </linearGradient>
+            </defs>
+            <path d="M0 160 Q 175 0 350 160 T 700 160 Q 525 320 350 160 T 0 160 Z" fill="url(#introGradient)" />
+            <circle cx="120" cy="60" r="40" fill="#f472b6" fill-opacity="0.3" />
+            <circle cx="600" cy="100" r="60" fill="#6366f1" fill-opacity="0.2" />
+            <circle cx="350" cy="250" r="80" fill="#a78bfa" fill-opacity="0.15" />
+        </svg>
+    </section>
+
+    <!-- Resume Section (Newly Added) -->
+   <!--  <section class="container mx-auto px-6 mt-8 flex flex-col md:flex-row items-center justify-center gap-4">
+      <a href="resume.html" target="_blank" class="inline-flex items-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 text-white font-semibold px-5 py-2 rounded-full shadow hover:scale-105 transition-transform">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" /></svg>
+        View Resume
+      </a>
+      <a href="../Resume_Amaldev.pdf" download class="inline-flex items-center bg-white bg-opacity-20 text-pink-200 font-semibold px-5 py-2 rounded-full shadow hover:bg-opacity-40 transition-colors" title="Download PDF Resume">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v12m0 0l-4-4m4 4l4-4m-8 8h8" /></svg>
+        Download
+      </a>
+    </section> -->
+
+    <!-- About Me Section -->
+
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-center mb-8 text-pink-400">About Me</h2>
+            <p class="text-center max-w-3xl mx-auto text-gray-200">
+                Bringing over a decade of frontend expertise, I turn ideas into visually stunning, lightning-fast web
+                experiences. </p>
+            <p class="text-center max-w-3xl mx-auto text-gray-200">My passion? Crafting intuitive, high-impact
+                interfaces with Angular and React that users
+                love and businesses trust. Whether it’s building from scratch or optimizing for performance, I thrive on
+                delivering pixel-perfect results and maintainable code. Let’s create something exceptional together!
+            </p>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+
+    <section class="bg-white bg-opacity-10 backdrop-blur-md py-16 rounded-xl shadow-xl mx-4 my-8">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-center mb-8 text-purple-300">Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <span
+                    class="flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                        alt="Angular" class="w-8 h-8 mr-2" />
+                    <span>Angular</span>
+                </span>
+                <span
+                    class="flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                        class="w-8 h-8 mr-2" />
+                    <span>React</span>
+                </span>
+                <span
+                    class="flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript" class="w-8 h-8 mr-2" />
+                    <span>JavaScript (ES6+)</span>
+                </span>
+                <span
+                    class="flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                        alt="TypeScript" class="w-8 h-8 mr-2" />
+                    <span>TypeScript</span>
+                </span>
+
+                <span
+                    class="flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux"
+                        class="w-8 h-8 mr-2" />
+                    <span>NgRx & Redux</span>
+                </span>
+                <span
+                    class="flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                        alt="Tailwind CSS" class="w-8 h-8 mr-2" />
+                    <span>Tailwind CSS</span>
+                </span>
+                <span
+                    class="flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest"
+                        class="w-8 h-8 mr-2" />
+                    <span>Cypress</span>
+                    <!-- <span>Jest & Cypress</span> -->
+                </span>
+                <span
+                    class="flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+                        alt="Webpack" class="w-8 h-8 mr-2" />
+                    <span>Webpack & Docker</span>
+                </span>
+                <!-- Java Skill -->
+                <span
+                    class="flex items-center bg-gradient-to-r from-yellow-600 to-orange-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
+                        class="w-8 h-8 mr-2" />
+                    <span>Java</span>
+                </span>
+                <!-- Node.js Skill -->
+                <span
+                    class="flex items-center bg-gradient-to-r from-green-600 to-green-400 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                        alt="Node.js" class="w-8 h-8 mr-2" />
+                    <span>Node.js</span>
+                </span>
+                <!-- Firebase Skill -->
+                <span
+                    class="flex items-center bg-gradient-to-r from-yellow-500 to-orange-400 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                        alt="Firebase" class="w-8 h-8 mr-2" />
+                    <span>Firebase</span>
+                </span>
+                <!-- HTML & CSS Skill -->
+                <span
+                    class="flex items-center bg-gradient-to-r from-orange-400 to-pink-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"
+                        class="w-8 h-8 mr-2" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"
+                        class="w-8 h-8 mr-2 -ml-2" />
+                    <span>HTML &amp; CSS</span>
+                </span>
+                <!-- Chart Libraries: amCharts & Highcharts -->
+                <span class="flex items-center bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="https://www.amcharts.com/wp-content/themes/amcharts4/css/img/logo2.png" alt="amCharts" class="w-8 h-8 mr-2 bg-white rounded p-1"/>
+                    <span>amCharts</span>
+                </span>
+                <span class="flex items-center bg-gradient-to-r from-gray-700 to-blue-400 text-white py-2 px-3 rounded shadow justify-center">
+                    <img src="highcharts-logo.svg" alt="Highcharts" class="w-8 h-8 mr-2 bg-white rounded p-1"/>
+                    <span>Highcharts</span>
+                </span>
+            </div>
+            <style>
+                .skill-card-hover {
+                    transition: transform 0.28s cubic-bezier(.4,1.1,.5,1), box-shadow 0.28s cubic-bezier(.4,1.1,.5,1), border-color 0.28s cubic-bezier(.4,1.1,.5,1);
+                }
+                .skill-card-hover:hover {
+                    transform: translateY(-4px) scale(1.035);
+                    box-shadow: 0 6px 18px 0 rgba(236,72,153,0.18), 0 2px 8px 0 rgba(99,102,241,0.13);
+                    border-color: #f472b6 !important;
+                    z-index: 2;
+                }
+            </style>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    document.querySelectorAll('.grid.grid-cols-2.md\\:grid-cols-4 > span, .grid.grid-cols-2.md\\:grid-cols-4 > div').forEach(function(card) {
+                        card.classList.add('skill-card-hover');
+                    });
+                });
+            </script>
+            <!-- <p class="mt-6 text-sm text-purple-200 text-center">* Note: Only core Java for backend utilities and
+                tooling, not for enterprise backend development.</p> -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-center mb-8 text-pink-400">Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg text-center">
+                    <h3 class="text-xl font-bold text-purple-200 mb-2">UI Development</h3>
+                    <p class="text-gray-200">Pixel-perfect, responsive, and accessible interfaces using Angular, React,
+                        and Tailwind CSS.</p>
                 </div>
-                <p class="lead mb-5">
-                    Results-oriented and innovative Senior Software Engineer with 7.4 years of experience. Easily
-                    communicates complex technical requirements to non-technical stakeholders. Excellent leadership
-                    record of leading development teams in enterprise-wide development projects.
-                </p>
-                <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/amal-ps/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/amaldev07" target="_blank"><i
-                            class="fab fa-github"></i></a>
-                    <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                <div class="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg text-center">
+                    <h3 class="text-xl font-bold text-purple-200 mb-2">SPA Architecture</h3>
+                    <p class="text-gray-200">Robust single-page applications with advanced state management and scalable
+                        code structure.</p>
+                </div>
+                <div class="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg text-center">
+                    <h3 class="text-xl font-bold text-purple-200 mb-2">Consulting & Mentoring</h3>
+                    <p class="text-gray-200">Guidance, code reviews, and sharing expertise to help teams deliver
+                        high-quality frontend solutions.</p>
+                </div>
+                <!-- New: End-to-End Project Delivery -->
+                <div class="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg text-center">
+                    <h3 class="text-xl font-bold text-purple-200 mb-2">End-to-End Project Delivery</h3>
+                    <p class="text-gray-200">Building applications from scratch to production, including planning,
+                        architecture, development, and handover.</p>
+                </div>
+                <!-- New: Deployment & CI/CD -->
+                <div class="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg text-center">
+                    <h3 class="text-xl font-bold text-purple-200 mb-2">Deployment & CI/CD</h3>
+                    <p class="text-gray-200">Automated deployment pipelines, cloud hosting, and best practices for
+                        reliable production releases.</p>
+                </div>
+                <!-- New: Angular & React Expertise -->
+                <div class="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg text-center">
+                    <h3 class="text-xl font-bold text-purple-200 mb-2">Angular & React Expertise</h3>
+                    <p class="text-gray-200">Deep experience in both Angular and React, enabling robust, maintainable,
+                        and scalable frontend solutions.</p>
+                </div>
+                <!-- New: Building Portfolio Websites -->
+                <div class="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg text-center">
+                    <h3 class="text-xl font-bold text-purple-200 mb-2">Building Portfolio Websites</h3>
+                    <p class="text-gray-200">Custom, modern, and responsive portfolio sites to showcase your work and personal brand online.</p>
                 </div>
             </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Experience-->
-        <section class="resume-section" id="experience">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Experience</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Senior Software Engineer</h3>
-                        <div class="subheading mb-3">WellsFargo, Bangalore, Karnataka</div>
-                        <ul>
-                            <li>Working with Angular 12 modules, services, templates, directives, services, and
-                                dependency injection to create a SPA.</li>
-                            <li>Hands-on Experience on Angular CLI (Command line Interface), Reactive Forms, or Web
-                                Forms 2.0 in Angular 12 and their Validations.</li>
-                            <li>Using Chrome Developer Tools and troubleshooting the code.</li>
-                            <li>Writing code coverage using Jasmine and Karma.</li>
-                            <li>Extensively used git for version control, Familiar with Forking, git clone, git merge,
-                                and pull request.</li>
-                            <li>Developing software solutions by studying information needs, conferring with users,
-                                studying systems flow, data usage, and work processes ensuring that customer deadlines
-                                are met within project budgets.</li>
-                            <li>Reviewed pull request changes.</li>
-                            <li>Rendering technical support in the design and development of applications, assisting
-                                in the development of new systems, and enhancing existing systems based on
-                                requirements.</li>
-                            <li>Interacting with team members to ensure the smooth progress of project work,
-                                ensuring adherence to quality norms throughout the implementation process</li>
-                            <li>Assisting in code review and providing the best possible solution for implementation.
-                            </li>
-                            <li>Suggesting technology-based solutions for enhancing functional efficiency and
-                                achieving business excellence.</li>
-                            <li>Contributing in the development and review of business and system requirements to
-                                obtain a thorough understanding of business needs in order to deliver accurate
-                                solutions.</li>
-                            <li>Defining the strategies, technical architecture, and other technology directions for
-                                implementation and operations of services, product support, quality assurance, and
-                                training.</li>
-                            <li>Participating in requirements gathering including interacting with business users,
-                                managing various technical aspects such as software design, coding, monitoring
-                                critical paths, and taking necessary appropriate actions.</li>
-                            <li>Defining product standards and guidelines, governance structure, best practices for
-                                product delivery life cycle (SDLC) & documentation that serve as benchmarks for
-                                excellent product delivery.</li>
-                        </ul>
+        </div>
+    </section>
+
+    <!-- Selected Projects Section -->
+
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-center mb-8 text-pink-400">Selected Projects</h2>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-white bg-opacity-10 backdrop-blur-md shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-purple-200">Search Application</h3>
+                        <p class="text-gray-200">Advanced Angular application with debouncing, caching, and state
+                            management for efficient API usage.</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">February 2022 - Present</span></div>
                 </div>
-                <!-- begin -->
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Senior Associate - Projects</h3>
-                        <div class="subheading mb-3">Cognizant, Bangalore, Karnataka</div>
-                        <!-- <p>
-                                Bring to the table win-win survival strategies to ensure 
-                                proactive domination. At the end of the day, going forward, 
-                                a new normal that has evolved from generation X is on the runway
-                                 heading towards a streamlined cloud solution. User generated content
-                                  in real-time will have multiple touchpoints for offshoring.
-                            </p> -->
-                        <ul>
-                            <li>Completed 4500+ lines of code coverage using Jasmine and Karma with more than 85%
-                                coverage, tested using SonarQube.</li>
-                            <li>Expertise in using Angular directives, Controllers, Filters, Services, Reactive Forms,
-                                Http Interceptors, Events, and Injectors.</li>
-                            <li>Performed UI testing using Cypress(UI testing tool).</li>
-                            <li>Planned and developed interfaces that simplified overall management and offered ease of
-                                use.</li>
-                            <li>Participated in cross-functional projects while working in lean development
-                                environments.</li>
-                            <li>Performed code reviews.</li>
-                            <li>Trained and managed a team of developers and discussed issues in order to provide
-                                resolution and apply best practices.</li>
-                            <li>Gathered and defined customer requirements to develop clear specifications for project
-                                plans.</li>
-                            <li>Used JIRA to keep track of bugs to reduce downtime, increase productivity, and improve
-                                communication.</li>
-                            <li>Mentoring other programmers.</li>
-                            <li>Performed Estimations for multiple projects.</li>
-                            <li>Technologies/Languages/Tools used: Angular 12, Angular 10, Angular 6, Jasmine, Karma,
-                                TypeScript, SCSS, CSS, Cypress.</li>
-                        </ul>
+                <div class="bg-white bg-opacity-10 backdrop-blur-md shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-purple-200">Role-Based Access Web App</h3>
+                        <p class="text-gray-200">Secure React-based app featuring sophisticated user permissions and
+                            dynamic data visualization.</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">January 2021 - Present</span></div>
-                </div>
-                <!-- end -->
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Senior Software Engineer</h3>
-                        <div class="subheading mb-3">RapidValue IT Services</div>
-                        <!-- <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p> -->
-                        <ul>
-                            <li>Worked on a couple of Incubation projects, RPA(Robotic process automation), Banking, and
-                                HRMS Projects, from Requirement gathering to delivering the application.</li>
-                            <li>Gathered and defined customer requirements to develop clear specifications for project
-                                plans.</li>
-                            <li>Worked closely with UI/UX team to prepare Wireframes and UI design via Invision and
-                                Zeplin.</li>
-                            <li>Worked on complete Software Development Life Cycle (SDLC) including System Requirements
-                                Collection, Architecture, Design, Coding, Development, Testing. Maintenance and
-                                Enhancement in a variety of technological platforms.</li>
-                            <li>Coordinated with Backend developers on Rest Api Integrations.</li>
-                            <li>Led version control efforts for the organization, employing GitHub and other public and
-                                open source repositories(Bitbucket).</li>
-                            <li>Reviewed colleague's code by paying attention to the minute details of it, highlighted
-                                any discrepancies, and brought it to their attention. Known for attention to detail and
-                                catching errors others missed.</li>
-                            <li>Trained and managed a team of developers and discussed issues in order to provide
-                                resolution and apply best practices.</li>
-                            <li>Implemented Microfrontend Library concept.</li>
-                            <li>Worked on Hybrid Mobile Application Development using Cordova, and ionic.</li>
-                            <li>Hands-on Knowledge on Google Could Platform for deploying Web - Applications, Firebase,
-                                Firestore, and Knowledge on Firebase Cloud functions.</li>
-                            <li>Hands-on Experience on Angular CLI (Command-line Interface).</li>
-                            <li>A good amount of work was done on Reactive forms or Web Forms 2.0 in Angular 2 and their
-                                Validations.</li>
-                            <li>Created Hybrid application with Angular and Ionic/Cordova and Unit Test with
-                                Karma-Jasmine.</li>
-                            <li>Extensive experience working under Agile methodologies environment (scrum).</li>
-                            <li>Experience with charting libraries such as C3.js.</li>
-                            <li>Created a custom responsive web application to replace a legacy line-of-business web
-                                application using Angular 6.</li>
-                            <li>Mentoring other programmers.</li>
-                            <li>Estimated work hours and tracked progress using Scrum methodology.</li>
-                            <li>Discussed project progress with customers, collected feedback on different stages, and
-                                directly addressed concerns.</li>
-                            <li>Followed agile methodologies and development best practices to division to enhance
-                                product development.</li>
-                            <li>Planned and developed interfaces that simplified overall management and offered ease of
-                                use.</li>
-                            <li>Technologies/Languages/Tools used: Angular 10, Angular 9, Angular 8, Angular 6, Angular
-                                4, Angular 2, Ionic, Cordova, JavaScript, Scss, Jira, Zoho, Bitbucket.</li>
-                        </ul>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">May 2018 - January 2021</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Software Engineerr</h3>
-                        <div class="subheading mb-3">Factweavers</div>
-                        <!-- <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p> -->
-                        <ul>
-                            <li>Learned a very new Javascript framework CxJs, which is built on React library, and
-                                implemented web applications using the same, I was one of the first developers for this
-                                framework, and I had the opportunity to work with the Framework development team and
-                                assist in the release of several versions of the framework.</li>
-                            <li>Experience with charting libraries such as AmChart, D3.js etc.</li>
-                            <li>Used NPM for installing required node modules and other published Angular NPM modules.
-                            </li>
-                            <li>Experience in using Chrome Developer for debugging and troubleshooting the code.</li>
-                            <li>Extensively used repositories like Github and Bitbucket.</li>
-                            <li>Developed the backend by using Node.js, Express, and MongoDB.</li>
-                            <li>Worked with software development and testing team members to design and develop robust
-                                solutions to meet client requirements for functionality, scalability, and performance.
-                            </li>
-                            <li>Collaborated with clients to define solution requirements, accounting for applicable
-                                development variables.</li>
-                            <li>Established and maintained strong working relationships with others.</li>
-                            <li>Expertise in implementing the MVC architecture in backend applications Node.js along
-                                with Express JS.</li>
-                            <li>Expertise in creating user validation forms and sending data to server using RESTful
-                                services.</li>
-                            <li>Experience with various IDE’s such as Visual Studio Code, IntelliJ, Eclipse, Netbeans,
-                                Sublime.</li>
-                            <li>Created Responsive Web Design using Bootstrap.</li>
-                            <li>Responsible for creating RESTFUL Web Services to serve data to the front-end application
-                                in JSON format.</li>
-                            <li>Technologies/Languages/Tools used: CxJS, NodeJs, Angular JS, JavaScript, Html, Css,
-                                Trello, Git.</li>
-                        </ul>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">April 2017 - May 2018</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Software Engineer</h3>
-                        <div class="subheading mb-3">Lakshmi Infotech</div>
-                        <!-- <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p> -->
-                        <ul>
-                            <li>Started My career working on an IoT project on Arduino Microcontroller and Php.</li>
-                            <li>Developed prototypes, and got approval for product development.</li>
-                            <li>Reviewed project specifications and design technology solutions that met or exceeded
-                                performance expectations.</li>
-                            <li>Identified and documented all project changes by proactively overseeing budgeting and
-                                scope concerns.</li>
-                            <li>Led software development initiative as subject matter expert and primary
-                                point-of-contact for project management staff.</li>
-                            <li>Consulted regularly with internal customers on application development project status,
-                                new project proposals, and software-related technical issues.</li>
-                            <li>Expertise in using Angular JS directives, Controllers, Filters, Services, Templets,
-                                Events, and Injectors.</li>
-                            <li>Experience in making Responsive Web Pages using Media Queries and Bootstrap, Material
-                                Design for styling mobile applications.</li>
-                            <li>Extensively used jQuery, JSON, AJAX and DOM scripting to create interactive web
-                                applications.</li>
-                            <li>Used JSON for data exchange between client and server.</li>
-                            <li>Responsible for parsing JSON data to & from the server for presentation & storage
-                                purposes in the project.</li>
-                            <li>Used Media Queries for the design to be compatible in all devices.</li>
-                            <li>Technologies/Languages/Tools used: Angular JS, JavaScript, Html, Css, Git, GitHUb.</li>
-                        </ul>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">June 2014 - March 2017</span></div>
                 </div>
             </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Education-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Education</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Adi Shankara Institute of Engineering and Technology</h3>
-                        <div class="subheading mb-3">Bachelor of Technology</div>
-                        <div>Electronics and communication Engineering</div>
-                        <!-- <p>2009-2013</p> -->
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-center mb-8 text-pink-400">Latest Blogs</h2>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-white bg-opacity-10 backdrop-blur-md shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-purple-200">Do Immediately Invoked Function Expressions (IIFEs) Get Hoisted in JavaScript?</h3>
+                        <p class="text-gray-200">Explore the hoisting behavior of IIFEs, how they differ from regular functions, and what every developer should know for interviews and real-world code.</p>
+                        <a href="https://medium.com/@amaldev.psn/do-immediately-invoked-function-expressions-iifes-get-hoisted-in-javascript-23099bfa5995" target="_blank" class="text-pink-300 underline hover:text-white">Read More</a>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">June 2009 - August 2013</span></div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Kerala Higher secondary</h3>
-                        <div class="subheading mb-3">Computer Science</div>
-                        <!-- <p>GPA: 3.56</p> -->
+                <div class="bg-white bg-opacity-10 backdrop-blur-md shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-purple-200">Understanding the <code>this</code> Keyword in JavaScript: Simplified</h3>
+                        <p class="text-gray-200">A clear, practical guide to how <code>this</code> works in JavaScript, with real-world examples and tips for avoiding common pitfalls.</p>
+                        <a href="https://medium.com/@amaldev.psn/understanding-the-this-keyword-in-javascript-simplified-90945ab15375" target="_blank" class="text-pink-300 underline hover:text-white">Read More</a>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">June 2006 - May 2008</span></div>
+                </div>
+                <div class="bg-white bg-opacity-10 backdrop-blur-md shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-purple-200">Simplifying Reactivity in Angular with Signals</h3>
+                        <p class="text-gray-200">Discover how Angular Signals make reactivity easier and more predictable, with practical examples for modern frontend development.</p>
+                        <a href="https://medium.com/@amaldev.psn/simplifying-reactivity-in-angular-with-signals-a0bf7d2cf44b" target="_blank" class="text-pink-300 underline hover:text-white">Read More</a>
+                    </div>
+                </div>
+                <!-- New Blog Card: Union Types in TypeScript -->
+                <div class="bg-white bg-opacity-10 backdrop-blur-md shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-purple-200">Union Types in TypeScript: A Practical Introduction</h3>
+                        <p class="text-gray-200">Learn how to use union types in TypeScript to write safer, more expressive code, with hands-on examples and real-world scenarios.</p>
+                        <a href="https://medium.com/@amaldev.psn/union-type-in-typescript-48950e6d2c64" target="_blank" class="text-pink-300 underline hover:text-white">Read More</a>
+                    </div>
+                </div>
+                <!-- New Blog Card: Understanding Min Heap in Data Structures (JavaScript) -->
+                <div class="bg-white bg-opacity-10 backdrop-blur-md shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-purple-200">Understanding Min Heap in Data Structures (JavaScript)</h3>
+                        <p class="text-gray-200">A beginner-friendly guide to Min Heap, its operations, and implementation in JavaScript, with clear visuals and code samples.</p>
+                        <a href="https://medium.com/@amaldev.psn/understanding-min-heap-in-data-structures-javascript-d118313d5d90" target="_blank" class="text-pink-300 underline hover:text-white">Read More</a>
+                    </div>
                 </div>
             </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Skills-->
-        <section class="resume-section" id="skills">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Skills</h2>
-                <div class="subheading mb-3">Programming Languages & Tools</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                    <!-- <li class="list-inline-item"><i class="fab fa-wordpress"></i></li> -->
-                    <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                </ul>
-                <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Mobile-First, Responsive Design
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Browser Testing & Debugging
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Functional Teams
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Agile Development & Scrum
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Interests-->
-        <!-- <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section> -->
-        <hr class="m-0" />
-        <!-- Awards-->
-        <section class="resume-section" id="awards">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Awards & Certifications</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Angular Certification
-                        <br>
-                        <a href="https://www.hackerrank.com/certificates/314fec040303" target="_blank">
-                            https://www.hackerrank.com/certificates/314fec040303</a>
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Angular Certification
-                        <br>
-                        <a href="https://www.hackerrank.com/certificates/e121814686e4" target="_blank">
-                            https://www.hackerrank.com/certificates/e121814686e4</a>
-                    </li>
-                    <!-- <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li> -->
-                </ul>
-            </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 text-white py-16" id="contact">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-extrabold mb-4">Get in Touch</h2>
+            <p class="mb-4">Feel free to connect with me for collaboration or opportunities!</p>
+            <p>Email: <a href="mailto:amaldev.psn@gmail.com" class="underline text-pink-200 hover:text-white"
+                    target="_blank" rel="noopener noreferrer">amaldev.psn@gmail.com</a></p>
+            <p>Phone: <a href="tel:+917594072480" class="underline text-pink-200 hover:text-white">+91-7594072480</a>
+            </p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/amaldev-ps/"
+                    class="underline text-pink-200 hover:text-white" target="_blank"
+                    rel="noopener noreferrer">linkedin.com/in/amaldev-ps</a></p>
+            <p>GitHub: <a href="https://github.com/amaldev07" class="underline text-pink-200 hover:text-white"
+                    target="_blank" rel="noopener noreferrer">github.com/amaldev07</a></p>
+            <!-- Resume Link -->
+            <p>Resume: <a href="resume.html" class="underline text-pink-200 hover:text-white" target="_blank" rel="noopener noreferrer">View Resume</a></p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="text-center py-6 text-gray-300">
+        <p>&copy; 2025 Amaldev PS. All rights reserved.</p>
+    </footer>
+
+    <!-- Simple AI Chatbot Button & Widget -->
+    <button id="ai-chatbot-toggle" class="fixed bottom-8 right-8 z-50 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 text-white px-4 py-2 rounded-full shadow-lg hover:scale-105 transition-transform focus:outline-none">
+      🤖 AI Chat
+    </button>
+    <div id="ai-chatbot-widget" class="fixed bottom-24 right-8 z-50 w-80 max-w-full bg-white bg-opacity-95 rounded-xl shadow-2xl p-4 hidden flex-col" style="backdrop-filter: blur(8px);">
+      <div class="flex justify-between items-center mb-2">
+        <span class="font-bold text-purple-700">AI Assistant</span>
+        <button id="ai-chatbot-close" class="text-gray-400 hover:text-pink-500">✖</button>
+      </div>
+      <div id="ai-chatbot-messages" class="h-40 overflow-y-auto text-sm mb-2 bg-gray-50 rounded p-2 border border-gray-200"></div>
+      <form id="ai-chatbot-form" class="flex gap-2">
+        <input id="ai-chatbot-input" type="text" class="flex-1 rounded border border-gray-300 px-2 py-1 focus:outline-none focus:border-pink-400" placeholder="Ask me anything..." autocomplete="off" />
+        <button type="submit" class="bg-gradient-to-r from-pink-500 to-indigo-500 text-white px-3 py-1 rounded">Send</button>
+      </form>
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+
+    <!-- Social Icons Top Right -->
+    <div class="fixed top-6 right-36 z-50 flex gap-3 items-center">
+      <a href="https://github.com/amaldev07" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <img src="git-icon.svg" alt="GitHub" class="w-6 h-6 hover:scale-110 transition-transform" />
+      </a>
+      <a href="https://www.linkedin.com/in/amaldev-ps/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="w-6 h-6 hover:scale-110 transition-transform" />
+      </a>
+      <a href="https://leetcode.com/u/amal-ps/" target="_blank" rel="noopener noreferrer" title="LeetCode">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg" alt="LeetCode" class="w-6 h-6 hover:scale-110 transition-transform bg-white rounded-full p-0.5" />
+      </a>
+    </div>
+
+    <div id="greeting-message" class="fixed top-6 right-8 z-50 text-xs font-normal text-white bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 px-2 py-1 rounded-full shadow-lg backdrop-blur-md select-none" style="display:none;"></div>
+    <script>
+      function getGreeting() {
+        const hour = new Date().getHours();
+        if (hour < 5) return "Good Night";
+        if (hour < 12) return "Good Morning";
+        if (hour < 18) return "Good Afternoon";
+        return "Good Evening";
+      }
+      document.addEventListener('DOMContentLoaded', function() {
+        const greeting = getGreeting();
+        const el = document.getElementById('greeting-message');
+        if (el) {
+          el.textContent = greeting;
+          el.style.display = 'block';
+        }
+
+        // AI Chatbot logic
+        const toggleBtn = document.getElementById('ai-chatbot-toggle');
+        const widget = document.getElementById('ai-chatbot-widget');
+        const closeBtn = document.getElementById('ai-chatbot-close');
+        const form = document.getElementById('ai-chatbot-form');
+        const input = document.getElementById('ai-chatbot-input');
+        const messages = document.getElementById('ai-chatbot-messages');
+
+        toggleBtn.addEventListener('click', () => {
+          widget.classList.toggle('hidden');
+          input.focus();
+        });
+        closeBtn.addEventListener('click', () => widget.classList.add('hidden'));
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const userMsg = input.value.trim();
+          if (!userMsg) return;
+          messages.innerHTML += `<div class='mb-1'><b>You:</b> ${userMsg}</div>`;
+          input.value = '';
+          // Simple AI: hardcoded responses
+          let aiReply = "Sorry, I can only answer basic questions like contact details, skill sets etc of Amaldev right now.";
+          if (/hello|hi|hey/i.test(userMsg)) aiReply = "Hello! How can I help you today?";
+          else if (/your name/i.test(userMsg)) aiReply = "I'm an AI assistant for Amaldev";
+          else if (/skills|expertise/i.test(userMsg)) aiReply = "Amaldev specializes in Angular, React, TypeScript, and modern frontend engineering.";
+          else if (/contact|email|phone/i.test(userMsg)) aiReply = "You can contact Amaldev at Email:amaldev.psn@gmail.com. Phone:+91-7594072480";
+          else if (/blog|articles/i.test(userMsg)) aiReply = "Check out the latest blogs on Amaldev's Medium profile!";
+          else if (/portfolio|projects/i.test(userMsg)) aiReply = "Visit the Projects section to see Amaldev's work!";
+          else if (/experience|work/i.test(userMsg)) aiReply = "Amaldev has over 10 years of experience in frontend development.";
+          else if (/tools|technologies/i.test(userMsg)) aiReply = "Amaldev uses Angular, React, TypeScript, Tailwind CSS, and more.";
+          else if (/project|portfolio/i.test(userMsg)) aiReply = "Check out the Projects and Blogs sections for Amaldev's work!";
+          setTimeout(() => {
+            messages.innerHTML += `<div class='mb-2 text-purple-700'><b>AI:</b> ${aiReply}</div>`;
+            messages.scrollTop = messages.scrollHeight;
+          }, 400);
+        });
+      });
+    </script>
 </body>
 
 </html>
