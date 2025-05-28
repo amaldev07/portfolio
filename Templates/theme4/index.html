@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: #0f2027;  /* fallback for old browsers */
+      background: linear-gradient(90deg, #2c5364 0%, #203a43 50%, #0f2027 100%);
+      color: #fff;
+      min-height: 100vh;
+    }
+    header {
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: rgba(0,0,0,0.3);
+    }
+    .hero-title {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: 2px;
+    }
+    .hero-subtitle {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 2rem;
+      color: #90caf9;
+    }
+    .cta-btn {
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 30px;
+      background: #90caf9;
+      color: #0f2027;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 1rem;
+    }
+    .cta-btn:hover {
+      background: #42a5f5;
+    }
+    section {
+      max-width: 1100px;
+      margin: 4rem auto;
+      padding: 2rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: 20px;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.2);
+    }
+    h2 {
+      font-size: 2rem;
+      color: #90caf9;
+      margin-bottom: 1rem;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .skill {
+      background: #203a43;
+      padding: 0.7rem 1.5rem;
+      border-radius: 20px;
+      font-weight: 600;
+      color: #90caf9;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .project-card {
+      background: #2c5364;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+      transition: transform 0.2s;
+    }
+    .project-card:hover {
+      transform: translateY(-8px) scale(1.03);
+    }
+    .project-title {
+      font-size: 1.3rem;
+      color: #90caf9;
+      margin-bottom: 0.5rem;
+    }
+    .project-desc {
+      font-size: 1rem;
+      color: #e3f2fd;
+    }
+    @media (max-width: 700px) {
+      .hero-title { font-size: 2rem; }
+      .hero-subtitle { font-size: 1rem; }
+      section { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero-title">Hi, I'm Amaldev</div>
+    <div class="hero-subtitle">Frontend Developer | 10+ Years | Angular & React Expert</div>
+    <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Me</button>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate frontend developer with a decade of experience building high-performance, scalable, and beautiful web applications using Angular, React, and modern web technologies. I love crafting seamless user experiences and bringing ideas to life with code.</p>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">Angular</div>
+      <div class="skill">React</div>
+      <div class="skill">TypeScript</div>
+      <div class="skill">JavaScript (ES6+)</div>
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3 / SASS</div>
+      <div class="skill">Redux</div>
+      <div class="skill">RxJS</div>
+      <div class="skill">Jest</div>
+      <div class="skill">Webpack</div>
+      <div class="skill">REST APIs</div>
+      <div class="skill">UI/UX Design</div>
+    </div>
+  </section>
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services-list" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 1.5rem;">
+      <div class="service-card" style="background:#203a43; border-radius:16px; padding:1.5rem; min-width:260px; max-width:320px; box-shadow:0 2px 12px rgba(0,0,0,0.12);">
+        <h3 style="color:#90caf9; margin-top:0;">UI Development</h3>
+        <p style="color:#e3f2fd;">Building pixel-perfect, responsive, and accessible interfaces using modern frameworks and best practices.</p>
+      </div>
+      <div class="service-card" style="background:#203a43; border-radius:16px; padding:1.5rem; min-width:260px; max-width:320px; box-shadow:0 2px 12px rgba(0,0,0,0.12);">
+        <h3 style="color:#90caf9; margin-top:0;">SPA Architecture</h3>
+        <p style="color:#e3f2fd;">Designing and developing robust single-page applications with Angular and React, including state management and routing.</p>
+      </div>
+      <div class="service-card" style="background:#203a43; border-radius:16px; padding:1.5rem; min-width:260px; max-width:320px; box-shadow:0 2px 12px rgba(0,0,0,0.12);">
+        <h3 style="color:#90caf9; margin-top:0;">Performance Optimization</h3>
+        <p style="color:#e3f2fd;">Improving load times, runtime performance, and user experience through code splitting, lazy loading, and best practices.</p>
+      </div>
+      <div class="service-card" style="background:#203a43; border-radius:16px; padding:1.5rem; min-width:260px; max-width:320px; box-shadow:0 2px 12px rgba(0,0,0,0.12);">
+        <h3 style="color:#90caf9; margin-top:0;">Consulting & Mentoring</h3>
+        <p style="color:#e3f2fd;">Guiding teams, code reviews, and sharing expertise to help others grow and deliver high-quality frontend solutions.</p>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <div class="project-title">Project One</div>
+        <div class="project-desc">A modern dashboard built with React and Redux, featuring real-time data visualization and custom theming.</div>
+      </div>
+      <div class="project-card">
+        <div class="project-title">Project Two</div>
+        <div class="project-desc">Enterprise-scale Angular application for managing workflows, with advanced state management and modular architecture.</div>
+      </div>
+      <div class="project-card">
+        <div class="project-title">Project Three</div>
+        <div class="project-desc">Responsive portfolio site with animated transitions and a headless CMS backend.</div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Let's build something amazing together! <br>Email: <a href="mailto:your.email@example.com" style="color:#90caf9;">your.email@example.com</a></p>
+  </section>
+</body>
+</html>
