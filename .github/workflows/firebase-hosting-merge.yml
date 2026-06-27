@@ -5,14 +5,16 @@ name: Deploy to Firebase Hosting on merge
 'on':
   push:
     branches:
-      - develop
       - main
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    concurrency:
+      group: firebase-hosting-live
+      cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v3
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - uses: actions/checkout@v4
+      - uses: FirebaseExtended/action-hosting-deploy@v0.10.0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_AMALDEV_PORTFOLIO }}'
