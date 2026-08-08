@@ -1,8 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="812.98" height="490.439" viewBox="0 0 812.98 490.439" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" artist="Katerina Limpitsouni" source="https://undraw.co/">
   <g id="Group_309" data-name="Group 309" transform="translate(-407 -291)">
-    <g id="Group_100" data-name="Group 100" transform="translate(375 238)">
-      <path id="Path_1465-409" data-name="Path 1465" d="M675.147,628.1a11.49,11.49,0,1,0,11.49,11.49h0a11.49,11.49,0,0,0-11.49-11.49Zm0,18.561a7.071,7.071,0,1,1,7.071-7.071h0a7.071,7.071,0,0,1-7.071,7.071Z" transform="translate(-113.269 -156.487)" fill="#f2f2f2"/>
-      <path id="Path_1467-410" data-name="Path 1467" d="M630.954,619.261h44.193V663a5.757,5.757,0,0,1-5.757,5.757H636.711A5.757,5.757,0,0,1,630.954,663V619.261Z" transform="translate(-113.269 -156.487)" fill="#f2f2f2"/>
+    <g id="Group_100" data-name="Buy Me a Coffee cup" transform="translate(375 238)">
+      <a href="https://buymeacoffee.com/amaldevpsnn" target="_blank" xlink:href="https://buymeacoffee.com/amaldevpsnn">
+        <title>Buy Me a Coffee</title>
+        <path d="M560.8,479.7h3.9c6.3,0,11.4,5.1,11.4,11.4s-5.1,11.4-11.4,11.4h-3.9v-6h3.9a5.4,5.4,0,0,0,0-10.8h-3.9Z" fill="#111827"/>
+        <path d="M517.7,462.8h44.2v43.7a5.76,5.76,0,0,1-5.8,5.8H523.5a5.76,5.76,0,0,1-5.8-5.8Z" fill="#ffdd00"/>
+        <path d="M516.4,462.8h46.8v8.2H516.4Z" fill="#111827"/>
+        <path d="M529.7,486.9c0-4.2,3.3-7.6,7.5-7.6,2.2,0,4.2,1,5.6,2.6,1.4-1.6,3.4-2.6,5.6-2.6,4.2,0,7.5,3.4,7.5,7.6,0,8.4-13.1,15.4-13.1,15.4S529.7,495.3,529.7,486.9Z" fill="#111827"/>
+        <path d="M532.3,452.1c-4.2-5.2,5.8-7.4,1.8-12.6" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+        <path d="M545.3,452.1c-4.2-5.2,5.8-7.4,1.8-12.6" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+      </a>
     </g>
     <path id="Path_944-411" data-name="Path 944" d="M696.682,669.758H114.056a1.029,1.029,0,0,1,0-2H696.682a1.029,1.029,0,0,1,0,2Z" transform="translate(293.73 81.512)" fill="#cacaca"/>
     <g id="Group_308" data-name="Group 308" transform="translate(1.18 53)">
