@@ -1,4 +1,10 @@
 {
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
   "dependencies": {
     "firebase": "^10.1.0"
   }

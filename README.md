@@ -1,18 +1,25 @@
-# portfolio
-to deploy code changes
-do
-from cmd  -> firebase deploy
-------------------------------------------------------
-but as we configured git branch deploy,
-just push to main branch, it will deploy
+# Amaldev's portfolio
 
----
-<!-- Currently working at Template Theme3
-Work on it copy the file and paste it to public folder -->
----
-Work on Public folder and push code
----
-My Projects
-https://github.com/amaldev07/kofforacoffee - https://amaldev07.github.io/kofforacoffee/
-https://github.com/amaldev07/crm_demo - https://amaldev07.github.io/crm_demo/
-https://github.com/amaldev07/academic-project-centre - https://amaldev07.github.io/academic-project-centre/#about
+A playable developer portfolio, built with HTML, CSS, and JavaScript and hosted on Firebase. Edit the site in `public/`.
+
+## Local development
+
+With Node.js 18 or newer installed:
+
+```sh
+npm run dev
+```
+
+Open http://127.0.0.1:3000. `npm start` runs the same server. No dependency installation or build step is required for local preview. Refresh the browser after editing files. Set the `PORT` environment variable to use another port.
+
+```sh
+npm run check
+```
+
+Checks the portfolio's required files, local links and assets, linked HTML anchors, and JavaScript syntax. External URLs are not fetched.
+
+## Deployment
+
+Firebase Hosting serves `public/` with clean URLs, so `/resume` opens `resume.html`. The local server supports the same route.
+
+**Pushing to `main` or `develop` triggers the existing GitHub workflow and deploys to the live site.** Pull requests from this repository create Firebase previews. For manual deployment with the Firebase CLI configured, run `firebase deploy`.
