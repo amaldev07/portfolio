@@ -39,7 +39,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="portfolio.css" />
@@ -144,7 +144,11 @@
     </header>
 
     <main tabindex="-1" id="main-content">
-      <section class="section home-section" id="home">
+      <section
+        aria-labelledby="intro-heading"
+        class="section home-section"
+        id="home"
+      >
         <!-- Version Control SVG as background (moved to left, smaller size) -->
 
         <!-- Cool SVG Decoration -->
@@ -154,11 +158,12 @@
             <p class="eyebrow hero-eyebrow">
               <span class="status-dot"></span> SENIOR FRONTEND ENGINEER
             </p>
-            <h1>
-              <span class="hero-intro">Hi, I'm</span> Amaldev PS<span
-                class="hero-period"
-                aria-hidden="true"
-                >.</span
+            <h1 id="intro-heading">
+              <span class="hero-intro">Hi, I'm</span>
+              <span class="hero-name"
+                >Amaldev PS<span class="hero-period" aria-hidden="true"
+                  >.</span
+                ></span
               >
             </h1>
             <p class="hero-description">
@@ -214,53 +219,6 @@
                 Download
               </a>
             </div>
-            <div class="hero-bottom">
-              <span class="hero-bottom-label">FIND ME ELSEWHERE</span>
-              <div class="social-links">
-                <a
-                  href="https://github.com/amaldev07"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="GitHub"
-                >
-                  <img src="git-icon.svg" alt="GitHub" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/amaldev-ps/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="LinkedIn"
-                >
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                    alt="LinkedIn"
-                  />
-                </a>
-                <a
-                  href="https://leetcode.com/u/amal-ps/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="LeetCode"
-                >
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg"
-                    alt="LeetCode"
-                  />
-                </a>
-                <a
-                  href="https://buymeacoffee.com/amaldevpsnn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Buy Me a Coffee"
-                >
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/buymeacoffee.svg"
-                    alt="Buy Me a Coffee"
-                  />
-                </a>
-              </div>
-              <div class="greeting" id="greeting-message"></div>
-            </div>
           </div>
           <div class="hero-art">
             <div class="art-topline">
@@ -290,6 +248,62 @@
                 ></span
               ><span class="art-arrow" aria-hidden="true">↗</span>
             </div>
+            <div aria-hidden="true" class="art-flower">
+              <svg viewBox="0 0 100 100" fill="none">
+                <g stroke="currentColor" stroke-width="16">
+                  <path d="M50 2v96M2 50h96M16 16l68 68M16 84l68-68" />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="container hero-bottom-container">
+          <div class="hero-bottom">
+            <span class="hero-bottom-label">FIND ME ELSEWHERE</span>
+            <div class="social-links">
+              <a
+                href="https://github.com/amaldev07"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub"
+              >
+                <img src="git-icon.svg" alt="GitHub" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/amaldev-ps/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a
+                href="https://leetcode.com/u/amal-ps/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LeetCode"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg"
+                  alt="LeetCode"
+                />
+              </a>
+              <a
+                href="https://buymeacoffee.com/amaldevpsnn"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Buy Me a Coffee"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/buymeacoffee.svg"
+                  alt="Buy Me a Coffee"
+                />
+              </a>
+            </div>
+            <div class="greeting" id="greeting-message"></div>
           </div>
         </div>
       </section>
@@ -299,23 +313,24 @@
         id="about"
       >
         <div class="container">
-          <div class="section-heading">
-            <span class="eyebrow">01 / INTRODUCTION</span>
-            <h2 id="about-heading">About Me</h2>
-          </div>
-
-          <div class="about-copy">
-            <p>
-              Bringing over a decade of frontend expertise, I turn ideas into
-              visually stunning, lightning-fast web experiences.
-            </p>
-            <p>
-              My passion? Crafting intuitive, high-impact interfaces with
-              Angular and React that users love and businesses trust. Whether
-              it's building from scratch or optimizing for performance, I thrive
-              on delivering pixel-perfect results and maintainable code. Let's
-              create something exceptional together!
-            </p>
+          <div class="about-content">
+            <div class="section-heading">
+              <span class="eyebrow">01 / INTRODUCTION</span>
+              <h2 id="about-heading">About Me</h2>
+            </div>
+            <div class="about-copy">
+              <p>
+                Bringing over a decade of frontend expertise, I turn ideas into
+                visually stunning, lightning-fast web experiences.
+              </p>
+              <p>
+                My passion? Crafting intuitive, high-impact interfaces with
+                Angular and React that users love and businesses trust. Whether
+                it's building from scratch or optimizing for performance, I
+                thrive on delivering pixel-perfect results and maintainable
+                code. Let's create something exceptional together!
+              </p>
+            </div>
           </div>
         </div>
       </section>
